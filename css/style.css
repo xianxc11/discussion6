@@ -1,0 +1,115 @@
+body{
+    line-height:1.5;
+}
+
+
+header, nav{
+    padding: 10px 20px 15px 5px;
+    margin: 30px 20px 15px 5px;
+}
+
+nav {
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+nav ul li{
+    /* Set display, margin, padding, font-size, background-color */
+    display: inline;
+    padding: 10px 30px;
+    border: 1px solid black;
+    margin: 10px;
+    font-size: 20px;
+    background-color: bisque;
+}
+
+nav a{
+    /* Set text decoration*/
+    text-decoration: none;
+}
+
+a:visited{
+    /* Set color */
+    color: black;
+}
+
+nav a.current{
+    /* Set text decoration, transformation, and underline properties */
+    text-decoration:underline wavy blueviolet;
+    text-underline-offset: 5px ;
+}
+
+
+h1{
+   /*Set font and font size*/
+   font-size: 32px;
+   font-family: 'Merriweather', 'Anton', 'Times New Roman', sans-serif;
+
+}
+
+h2{
+    /*Set font, font size, and alignment*/
+}
+
+h3{
+    /*Set font size*/
+
+}
+
+h1, h2, h3{
+    /*Set margin */
+
+}
+.grid{
+    /*Set width, margin, border properties, background color, and grid properties */
+    display: grid;
+    width: 90%;
+    border: solid 5px black;
+    border-radius: 10px;
+    grid-template-columns: 30% 30% 30%;
+    margin: 0px auto;
+    justify-content: space-around;
+    row-gap: 10px;
+    background-color: aquamarine;
+}
+
+.grid div{
+    /* Set border properties, padding, and background color */
+    border: 2px dashed black;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+.grid img{
+    /* Set width, margin, and display */
+    display: block;
+    width: 90%;
+    margin: 0px auto;
+}
+
+
+.grid div:nth-child(3n+1)  {
+    /* Set box shadow */
+    }
+
+.grid div:nth-child(3n)  {
+    /* Set box shadow */ 
+}
+
+.grid div:nth-child(3n+2)  {
+     /* Set box shadow */
+}
+    
+
+p + p {
+     /* Set indentation */
+  }
+  
+p{
+     /* Set margin */
+}
+
+
+.grid ul li{
+    /* Set margin, line-spacing, list styling  */
+}
